@@ -18,6 +18,7 @@ def cd_processing(_user_path, _argument):
             # print(_user_path + '/' + _argument)
             # print(_user_path, _argument)
             print('Invalid command')
+            print('Sasha was here!')
     return _user_path
 
 
