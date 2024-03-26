@@ -100,6 +100,7 @@ def cmd_rm():
         if os.path.isfile(name):
             os.remove(name)
         else:
+            print('Sasha was here!')
             shutil.rmtree(name)
     except FileNotFoundError:
         return 'No such file or directory'
